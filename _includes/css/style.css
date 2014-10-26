@@ -26,19 +26,19 @@ body {
 	margin: 0; 
 	height: 100%; 
 	color: {{ site.colors.secondary }};
-	font-family: 'Lato', sans-serif;
+	font-family: 'Noto Serif','Lato', sans-serif;
 	font-weight: 400;
 	}
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Noto Serif', 'Raleway', sans-serif;
 	font-weight: 700;
 }
 
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Noto Serif', 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 14px; 
 	line-height: 24px;
@@ -93,18 +93,33 @@ a:focus {
 }
 
 .navbar-brand {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Noto Serif', 'Raleway', sans-serif;
 	font-weight: 900;
 }
+
 
 .navbar-header .navbar-brand {
 	color: white;
 }
 
+/* disable hover color */
+.navbar-header .navbar-brand:hover,
+.navbar-header .navbar-brand:focus {
+	background-color: transparent;
+	color: white;
+}
+
+/* subtitle */
+.navbar-brand small {
+	display:block;
+	font-size:12px;
+	color: #9C9C9C;
+}
+
 .navbar-default .navbar-nav > li > a {
 	color: white;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -120,6 +135,7 @@ a:focus {
 	background-color: {{ site.colors.secondary }};
 	border-color: transparent;
 }
+
 
 .dropdown-menu {
 	background: {{ site.colors.secondary }};
@@ -206,20 +222,22 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: {{ site.colors.primary }};
-	min-height: 550px;
+	/*background-color: {{ site.colors.primary }};*/
+	/*background: url('/assets/img/law4-bw2.jpg');*/
+	/*background-repeat:no-repeat;*/
+	/*min-height: 550px;*/
 	padding-top: 100px;
 	padding-bottom: 0px;
-	text-align: center;
+	text-align: left;
 }
 
 #headerwrap h3, h5 {
-	color: white;
+	/*color: white;*/
 	font-weight: 400;
 }
 
 #headerwrap h1 {
-	color: white;
+	/*color: white;*/
 	margin-bottom: 25px;
 }
 
@@ -428,6 +446,9 @@ csmall {
     -o-background-size: cover;
     background-size: cover;
 }
+#map-container {
+	height: 300px;
+}
 
 /* Blog Page */
 .popular-posts { 
@@ -473,3 +494,4 @@ a.anchor{
     top: -80px; 
     visibility: hidden;
 }
+

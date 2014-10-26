@@ -1,27 +1,38 @@
 <div id="footerwrap">
     <div class="container">
         <div class="row">
+            <!--<div class="col-lg-4">-->
+                <!--<h4>About</h4>-->
+                <!--<div class="hline-w"></div>-->
+                <!--<p>{{ site.about }}</p>-->
+            <!--</div>-->
+            <!--<div class="col-lg-4">-->
+                <!--<h4>Social Links</h4>-->
+                <!--<div class="hline-w"></div>-->
+                <!--<p>-->
+                    <!--{% for network in site.social %}-->
+                        <!--<a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>-->
+                    <!--{% endfor %}-->
+                <!--</p>-->
+            <!--</div>-->
             <div class="col-lg-4">
-                <h4>About</h4>
-                <div class="hline-w"></div>
-                <p>{{ site.about }}</p>
-            </div>
-            <div class="col-lg-4">
-                <h4>Social Links</h4>
-                <div class="hline-w"></div>
+                <h4>Our Location</h4>
+                <!--<div class="hline-w"></div>-->
                 <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                    <strong>Mega Russian Law Group</strong><br>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
                     {% endfor %}
                 </p>
             </div>
             <div class="col-lg-4">
-                <h4>Our Bunker</h4>
-                <div class="hline-w"></div>
+                <h4>Contact Us</h4>
+            <!--<div class="hline-w"></div>-->
                 <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
+                    phone:
+                    <a href="tel:{{ site.tel }}" rel="nofollow" class="phone ">{{site.tel}}</a><br>
+                    email:
+                    <a href="mailto:{{ site.email }}" rel="nofollow">{{site.email}}</a>
                 </p>
             </div>
         </div><! --/row -->

@@ -4,12 +4,12 @@ title: Contact
 permalink: /contact/
 ---
 
-<div id="contactwrap"></div>
+<!--<div id="contactwrap"></div>-->
 
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-8">
-            <h4>Just Get In Touch!</h4>
+            <h4>Ask a question</h4>
             <div class="hline"></div>
                 <p>{{ site.about }}</p>
                 <form role="form">
@@ -42,10 +42,12 @@ permalink: /contact/
                     {% endfor %}
                 </p>
                 <p>
-                    Email: {{ site.email }}<br/>
-                    Tel: {{ site.tel }}
+                  phone:
+                  <a href="tel:{{ site.tel }}" rel="nofollow" class="phone ">{{site.tel}}</a><br>
+                  email:
+                  <a href="mailto:{{ site.email }}" rel="nofollow">{{site.email}}</a>
                 </p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <div id="map-container"></div>
         </div>
     </div><! --/row -->
 </div><! --/container -->
