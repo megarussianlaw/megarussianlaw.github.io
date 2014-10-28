@@ -218,6 +218,13 @@ a:focus {
 	border-bottom: 2px solid #ffffff;
 	margin-bottom: 25px;
 }
+
+/* grouped list remove border */
+.list-group {
+	border: 0px;
+}
+
+
 /*	################################################################
 	SITE WRAPS
 ################################################################# */
@@ -246,9 +253,15 @@ a:focus {
 	margin: 0 auto;
 }
 
+/* Index Summary */
+#summary {
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
 /* Services Wrap */
 #service {
-	margin-top: 100px;
+	margin-top: 80px;
 	margin-bottom: 80px;
 }
 
@@ -426,6 +439,17 @@ csmall {
 	background: {{ site.colors.primary }};
 }
 
+/* Services Page */
+.tab-content{
+	margin-left: 25px;
+}
+.tab-pane.active ul {
+	list-style: none;
+}
+.tab-pane.active ul > li{
+	margin-bottom: 10px;
+}
+
 /* Contact Page */
 #contactwrap {
 	background: url(../img/contact.jpg) no-repeat center top;
@@ -452,47 +476,47 @@ csmall {
 }
 
 /* Blog Page */
-.popular-posts { 
-	margin: 0px;
-	padding-left: 0px;
-	}
-	
-.popular-posts li {
-	list-style: none; 
-	margin-bottom: 20px; 
-	min-height: 70px;
-}
-.popular-posts li a, 
-.popular-posts li a:hover {
-	color:#2f2f2f; 
-	text-decoration: none;
-	}
-	
-.popular-posts li img {
-	float: left; 
-	margin-right: 20px;
-	}
-	
-.popular-posts li em {
-	font-family: 'Lato', sans-serif;
-	font-size: 12px;
-	color: #b3b3b3
-	}
+/*.popular-posts { */
+	/*margin: 0px;*/
+	/*padding-left: 0px;*/
+	/*}*/
+	/**/
+/*.popular-posts li {*/
+	/*list-style: none; */
+	/*margin-bottom: 20px; */
+	/*min-height: 70px;*/
+/*}*/
+/*.popular-posts li a, */
+/*.popular-posts li a:hover {*/
+	/*color:#2f2f2f; */
+	/*text-decoration: none;*/
+	/*}*/
+	/**/
+/*.popular-posts li img {*/
+	/*float: left; */
+	/*margin-right: 20px;*/
+	/*}*/
+	/**/
+/*.popular-posts li em {*/
+	/*font-family: 'Lato', sans-serif;*/
+	/*font-size: 12px;*/
+	/*color: #b3b3b3*/
+	/*}*/
 
-.popular-posts p {
-	line-height: normal;
-	margin-bottom: auto;
-}	
+/*.popular-posts p {*/
+	/*line-height: normal;*/
+	/*margin-bottom: auto;*/
+/*}	*/
 
-.share i {
-	padding-right: 15px;
-	font-size: 18px;
-}
+/*.share i {*/
+	/*padding-right: 15px;*/
+	/*font-size: 18px;*/
+/*}*/
 
-a.anchor{
-    display: block; 
-    position: relative; 
-    top: -80px; 
-    visibility: hidden;
-}
+/*a.anchor{*/
+    /*display: block; */
+    /*position: relative; */
+    /*top: -80px; */
+    /*visibility: hidden;*/
+/*}*/
 

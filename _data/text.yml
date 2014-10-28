@@ -1,0 +1,28 @@
+
+company:
+  name:
+    en: Mega Russian Law Group
+    ru: Mega Russian Law Group
+
+address:
+  headline1:
+    en: Our Location
+    ru: russian
+  headline2:
+    en: Our Address
+    ru: russian
+  lines:
+    - 4405 Atlantic Ave
+    - Brooklyn, NY 11224
+
+contact:
+  headline1:
+    en: Contact Us
+    ru: russian
+  email: info@megarussianlaw.com
+  tel: 646-477-2533
+
+
+summary:
+  en: Our Company provides legal services and consultation specializing in Russian Law.
+  ru: russian

@@ -1,0 +1,90 @@
+
+- name:
+    en: Real Estate
+    ru: russian
+  icon: fa-home
+  description:
+    en: english
+    ru: russian
+
+- name:
+    en: Family Law
+    ru: СЕМЕЙНОЕ ПРАВО
+  icon: fa-child
+  description:
+    en: english
+    ru: |
+      -	Интернациональный брак - брак с гражданином США, лицами без гражданства, брак ,заключенный на территории США и на территории России ( бывших стран СНГ)
+      -	Брачный договор – заключение, расторжение, оспаривание, признание недействительным,
+      -	Расторжение брака
+      -	Алименты Alimony:
+      -	Соглашение об уплате алиментов на несовершеннолетних детей (заключение, расторжение, оспаривание в судебном порядке, признание недействительным)
+      -	Взыскание алиментов в судебном порядке на несовершеннолетних детей
+      -	Взыскание дополнительных расходов со второго родителя на несовершеннолетних детей,
+      -	Взыскание алиментов на нетрудоспособных совершеннолетних детей,
+      -	Взыскание алиментов  на нетрудоспособного супруга
+      -	Решение вопросов о взыскании алиментов в рамках исполнительного производства ( взыскание алиментов с должника по решению суда, соглашению об уплате алиментов)
+      -	Раздел имущества
+      -	Соглашение о разделе совместно нажитого имущества (заключение, расторжение, оспаривание в судебном порядке, признание недействительным)
+      -	Устаноление отцовства в добровольном порядке и установление судом  факта признания отцовства,
+      -	Оспаривание отцоства в судебном порядке
+      -	Изменение имени  и фамилиии ребенка,
+      -	Определение порядка воспитания ребенка и встреч с ребенком.
+      -	Ограничение родительских прав
+
+
+- name:
+    en: Business
+    ru: russian
+  icon: fa-line-chart
+  description:
+    en: english
+    ru: russian
+
+- name:
+    en: Will and Inheritance
+    ru: russian
+  icon: fa-file-o
+  description:
+    en: english
+    ru: russian
+
+- name:
+    en: Injury
+    ru: russian
+  icon: fa-user-md
+  description:
+    en: english
+    ru: russian
+
+- name:
+    en: Criminal
+    ru: russian
+  icon: fa-key
+  description:
+    en: english
+    ru: russian
+
+- name:
+    en: Documents and Renewal
+    ru: russian
+  icon: fa-file-text-o
+  description:
+    en: english
+    ru: russian
+
+- name:
+    en: Power of Attorney
+    ru: russian
+  icon: fa-institution
+  description:
+    en: english
+    ru: russian
+
+- name:
+    en: Auto
+    ru: russian
+  icon: fa-car
+  description:
+    en: english
+    ru: russian

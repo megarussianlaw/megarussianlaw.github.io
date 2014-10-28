@@ -15,24 +15,24 @@
                     <!--{% endfor %}-->
                 <!--</p>-->
             <!--</div>-->
-            <div class="col-lg-4">
-                <h4>Our Location</h4>
+            <div class="col-md-4 col-xs-4">
+                <h4>{{ site.data.text.address.headline1[page.lang] }}</h4>
                 <!--<div class="hline-w"></div>-->
                 <p>
-                    <strong>Mega Russian Law Group</strong><br>
-                    {% for line in site.address.first.lines %}
+                    <strong>{{ site.data.text.company.name[page.lang] }}</strong><br>
+                    {% for line in site.data.text.address.lines %}
                         {{ line }} <br>
                     {% endfor %}
                 </p>
             </div>
-            <div class="col-lg-4">
-                <h4>Contact Us</h4>
+            <div class="col-md-4 col-xs-4">
+                <h4>{{ site.data.text.contact.headline1[page.lang] }}</h4>
             <!--<div class="hline-w"></div>-->
                 <p>
                     phone:
-                    <a href="tel:{{ site.tel }}" rel="nofollow" class="phone ">{{site.tel}}</a><br>
+                    <a href="tel:{{ site.data.text.contact.tel }}" rel="nofollow" class="phone ">{{site.data.text.contact.tel}}</a><br>
                     email:
-                    <a href="mailto:{{ site.email }}" rel="nofollow">{{site.email}}</a>
+                    <a href="mailto:{{ site.data.text.contact.email }}" rel="nofollow">{{site.data.text.contact.email}}</a>
                 </p>
             </div>
         </div><! --/row -->
