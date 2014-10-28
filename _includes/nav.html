@@ -9,12 +9,11 @@
         <span class="icon-bar"></span>
       </button>
       <i class="navbar-brand fa fa-gavel fa-2x"></i>
-      <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.title }} <small>{{site.tel}} {{site.email}}</small></a>
+      <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.data.text.company.name[page.lang] }} <small>{{site.data.text.contact.tel}} {{site.data.text.contact.email}}</small></a>
 
     </div>
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
-        <li>{% if page.lang == 'en' %} <a href="/ru">Русский{% else %} <a href="/">English{% endif %}</a></li>
         {% if page.lang == 'en' %}
         <li {% if page.title == "Services" %}class="active"{% endif %}><a href="{{"/services" | prepend: site.baseurl }}">SERVICES</a></li>
         <li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">ABOUT US</a></li>
@@ -24,6 +23,13 @@
         <li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/ru/about/" | prepend: site.baseurl }}">ABOUT US</a></li>
         <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/ru/contact/" | prepend: site.baseurl }}">CONTACT</a></li>
         {% endif %}
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Language<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Russian</a></li>
+            <li><a href="#">English</a></li>
+          </ul>
+        </li>
+        <li>{% if page.lang == 'en' %} <a href="/ru"><span>Русский</span>{% else %} <a href="/">English{% endif %}</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

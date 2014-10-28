@@ -7,7 +7,7 @@ company:
 address:
   headline1:
     en: Our Location
-    ru: russian
+    ru: Наш Аддресс
   headline2:
     en: Our Address
     ru: russian
@@ -18,11 +18,22 @@ address:
 contact:
   headline1:
     en: Contact Us
-    ru: russian
+    ru: Контакт
   email: info@megarussianlaw.com
   tel: 646-477-2533
 
 
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+
 summary:
   en: Our Company provides legal services and consultation specializing in Russian Law.
   ru: russian
+
+about:
+  title:
+    en: Ask a Question
+    ru: russian
+  subtitle:
+    en: "Send us any questions you may have and we will respond to you within 24 hours. For quicker support please give us a call."
+    ru: russian

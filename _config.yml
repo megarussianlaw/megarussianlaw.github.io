@@ -39,14 +39,3 @@ social:
 
 
 
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
-
-    
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Send us any questions you may have and we will respond to you within 24 hours. For quicker support please give us a call."
-
-# Testimonial content. Shown on Home and About page. 
-testimonial:
-    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO

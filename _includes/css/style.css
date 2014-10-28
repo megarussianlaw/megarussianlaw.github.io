@@ -440,14 +440,18 @@ csmall {
 }
 
 /* Services Page */
+.list-group i {
+	margin-right: 10px;
+}
 .tab-content{
 	margin-left: 25px;
 }
 .tab-pane.active ul {
 	list-style: none;
 }
-.tab-pane.active ul > li{
+.tab-pane.active ul li{
 	margin-bottom: 10px;
+	margin-left: 20px;
 }
 
 /* Contact Page */
