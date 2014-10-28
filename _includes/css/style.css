@@ -439,6 +439,26 @@ csmall {
 	background: {{ site.colors.primary }};
 }
 
+/* About Page */
+#carousel h2{
+	margin: 0;
+	color: #666;
+	padding-top: 90px;
+	font-size: 52px;
+	font-family: "trebuchet ms", sans-serif;
+}
+.item{
+	background: #333;
+	text-align: center;
+	height: 300px !important;
+}
+.carousel{
+	margin-top: 20px;
+}
+.bs-example{
+	margin: 20px;
+}
+
 /* Services Page */
 .list-group i {
 	margin-right: 10px;

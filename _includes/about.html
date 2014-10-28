@@ -1,14 +1,31 @@
 <div class="container mtb">
   <div class="row">
     <div class="col-lg-6 col-md-6 col-xs-6">
+      <div class="spacing"></div>
       <img class="img-responsive" src="{{ "/assets/img/law4-bw.jpg" | prepend: site.baseurl }}" alt="">
+      <div class="spacing"></div>
+      <div class="col-xs-6">
+        <img class="img-responsive" src="{{ "/assets/img/about1.jpg" | prepend: site.baseurl }}" alt="">
+      </div>
+      <div class="col-xs-6">
+        <img class="img-responsive" src="{{ "/assets/img/about2.jpg" | prepend: site.baseurl }}" alt="">
+      </div>
+      <div class="col-xs-6">
+        <img class="img-responsive" src="{{ "/assets/img/about3.jpg" | prepend: site.baseurl }}" alt="">
+      </div>
+      <div class="col-xs-6">
+        <img class="img-responsive" src="{{ "/assets/img/about4.jpg" | prepend: site.baseurl }}" alt="">
+      </div>
+      <div class="col-xs-6">
+        <img class="img-responsive" src="{{ "/assets/img/about5.jpg" | prepend: site.baseurl }}" alt="">
+      </div>
+
     </div>
     <div class="col-lg-6">
-      <h2>About Mega Russian Law Group</h2>
-      <p>Our Company provides legal services and consultation specializing in Russian Law.</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-      <p><br/><a href="/contact/" class="btn btn-theme">Contact Us</a></p>
+      <div class="spacing"></div>
+      <h2>{{site.data.text.about.title[page.lang]}}</h2>
+      <p>{{site.data.text.about.description[page.lang] | markdownify}}</p>
+      <!--<p><br/><a href="/contact/" class="btn btn-theme">Contact Us</a></p>-->
     </div>
   </div><! --/row -->
 </div><! --/container -->
