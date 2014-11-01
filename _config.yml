@@ -3,7 +3,7 @@
 # Site settings
 title: Mega Russian Law
 description: "SITE DESCRIPTION"
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+analytics: UA-40281277-3
 baseurl: "" #important: start with /
 url: "http://megarussianlaw.com"
 
