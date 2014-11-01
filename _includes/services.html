@@ -7,9 +7,9 @@
         {% for service in site.data.services %}
         {% if forloop.first %}
         <!--active -->
-        <a href="#service{{forloop.index}}" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', '{{service.name.en}}']);" class="list-group-item active" role="tab" data-toggle="tab"><i class="fa {{service.icon}}"></i>{{service.name[page.lang]}}</a>
+        <a href="#service{{forloop.index}}" onClick="ga('send', 'event', 'Services', 'Click', '{{service.name.en}}');" class="list-group-item active" role="tab" data-toggle="tab"><i class="fa {{service.icon}}"></i>{{service.name[page.lang]}}</a>
         {% else %}
-        <a href="#service{{forloop.index}}" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', '{{service.name.en}}']);" class="list-group-item" role="tab" data-toggle="tab"><i class="fa {{service.icon}}"></i>{{service.name[page.lang]}}</a>
+        <a href="#service{{forloop.index}}" onClick="ga('send', 'event', 'Services', 'Click', '{{service.name.en}}');" class="list-group-item" role="tab" data-toggle="tab"><i class="fa {{service.icon}}"></i>{{service.name[page.lang]}}</a>
         {% endif %}
         {% endfor %}
       </div>
