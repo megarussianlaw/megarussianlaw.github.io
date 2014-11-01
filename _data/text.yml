@@ -7,13 +7,13 @@ company:
 address:
   headline1:
     en: Our Location
-    ru: Наш Аддресс
+    ru: Наш Адресс
   headline2:
     en: Our Address
-    ru: Наш Аддресс
+    ru: Наш Адресс
   lines:
-    - 4405 Atlantic Ave
-    - Brooklyn, NY 11224
+    - 2908 Emmons ave
+    - Brooklyn, NY 11225
 
 contact:
   headline1:
