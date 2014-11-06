@@ -7,6 +7,10 @@ analytics: UA-40281277-3
 baseurl: "" #important: start with /
 url: "http://megarussianlaw.com"
 
+# payment
+stripe:
+  publishable_key: pk_test_CXrkJVYOMFptzuOpxyoK8vRv
+
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title

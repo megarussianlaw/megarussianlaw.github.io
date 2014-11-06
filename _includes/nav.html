@@ -14,7 +14,7 @@
     </div>
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
-        <li>{% if page.lang == 'en' %} <a href="/ru"><span><i class="fa fa-toggle-on"> Русский</i></span>{% else %} <a href="/en/"><i class="fa fa-toggle-on"> English</i>{% endif %}</a></li>
+        <!--<li>{% if page.lang == 'en' %} <a href="/ru"><span><i class="fa fa-toggle-on"> Русский</i></span>{% else %} <a href="/en/"><i class="fa fa-toggle-on"> English</i>{% endif %}</a></li>-->
         {% if page.lang == 'en' %}
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/en/" | prepend: site.baseurl }}">HOME</a></li>
         <li {% if page.title == "Services" %}class="active"{% endif %}><a href="{{"/en/services" | prepend: site.baseurl }}">SERVICES</a></li>
